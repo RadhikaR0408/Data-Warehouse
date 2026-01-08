@@ -87,6 +87,5 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 SELECT 'Loading Bronze Layer - COMPLETED' AS log_message, NOW() AS log_time;
-SELECT COUNT(*) AS total_rows
-FROM bronze.crm_international_sale_report;
+
 
